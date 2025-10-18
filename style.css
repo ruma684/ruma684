@@ -14,10 +14,10 @@
 }
 
 #preloader .fly{
-    height: 200px;
+    height: 150px;
 }
 #preloader .logo{
-    height: 180px;
+    height: 100px;
 }
 
 @keyframes fadeOut{
@@ -55,6 +55,7 @@ body{
   margin: 0 auto;
   width: 80%;
   border-radius: 50px;
+  background: rgba(100, 100, 100, 0.3);
 }
 
 #welcome, #about, #notes, #programs, #contact {
@@ -74,3 +75,16 @@ body{
   text-align: left;
 }
 
+li a{
+  text-decoration: none;
+}
+
+li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+nav a:hover{
+  color: mediumvioletred;
+  font-weight: bold;
+}
